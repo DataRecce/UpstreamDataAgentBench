@@ -315,7 +315,7 @@
     "dataset": "agnews",
     "query": "3",
     "run": "1",
-    "answer": "328.55"
+    "answer": "328.5454545454545"
   },
   {
     "dataset": "agnews",
@@ -533,13 +533,13 @@
     "dataset": "agnews",
     "query": "2",
     "run": "2",
-    "answer": "16/111"
+    "answer": "0.14"
   },
   {
     "dataset": "agnews",
     "query": "3",
     "run": "2",
-    "answer": "426"
+    "answer": "332"
   },
   {
     "dataset": "agnews",
@@ -755,13 +755,13 @@
     "dataset": "agnews",
     "query": "2",
     "run": "3",
-    "answer": "0.1441"
+    "answer": "25/111"
   },
   {
     "dataset": "agnews",
     "query": "3",
     "run": "3",
-    "answer": "336.18"
+    "answer": "334"
   },
   {
     "dataset": "agnews",
@@ -997,19 +997,19 @@
     "dataset": "agnews",
     "query": "1",
     "run": "4",
-    "answer": "The Rundown"
+    "answer": "Cavaliers, Hokies Play Host"
   },
   {
     "dataset": "agnews",
     "query": "2",
     "run": "4",
-    "answer": "16/111"
+    "answer": "27/111"
   },
   {
     "dataset": "agnews",
     "query": "3",
     "run": "4",
-    "answer": "336.64"
+    "answer": "346"
   },
   {
     "dataset": "agnews",
