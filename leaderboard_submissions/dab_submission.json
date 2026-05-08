@@ -87,19 +87,19 @@
     "dataset": "agnews",
     "query": "2",
     "run": "0",
-    "answer": "0.2883"
+    "answer": "0.15"
   },
   {
     "dataset": "agnews",
     "query": "3",
     "run": "0",
-    "answer": 589
+    "answer": "326.27"
   },
   {
     "dataset": "agnews",
     "query": "4",
     "run": "0",
-    "answer": "Africa"
+    "answer": "South America"
   },
   {
     "dataset": "stockmarket",
