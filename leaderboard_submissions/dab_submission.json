@@ -423,9 +423,7 @@
     "dataset": "stockindex",
     "query": "2",
     "run": "1",
-    "answer": [
-      "IXIC"
-    ]
+    "answer": "[\"IXIC\"]"
   },
   {
     "dataset": "stockindex",
@@ -815,33 +813,7 @@
     "dataset": "googlelocal",
     "query": "3",
     "run": "3",
-    "answer": [
-      {
-        "name": "TACOS LA CABANA",
-        "operating_hours": "[[\"Thursday\", \"Closed\"], [\"Friday\", \"5–11PM\"], [\"Saturday\", \"5–11PM\"], [\"Sunday\", \"5–11PM\"], [\"Monday\", \"5–11PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]]",
-        "average_rating": 5.0
-      },
-      {
-        "name": "Taba Rug Gallery",
-        "operating_hours": "[[\"Thursday\", \"10AM–7PM\"], [\"Friday\", \"10AM–7PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"10AM–7PM\"], [\"Tuesday\", \"10AM–7PM\"], [\"Wednesday\", \"10AM–7PM\"]]",
-        "average_rating": 5.0
-      },
-      {
-        "name": "White Barn Candle Co",
-        "operating_hours": "[[\"Thursday\", \"10AM–9PM\"], [\"Friday\", \"10AM–9PM\"], [\"Saturday\", \"10AM–9PM\"], [\"Sunday\", \"11AM–7PM\"], [\"Monday\", \"10AM–9PM\"], [\"Tuesday\", \"10AM–9PM\"], [\"Wednesday\", \"10AM–9PM\"]]",
-        "average_rating": 5.0
-      },
-      {
-        "name": "Beauty Divine Artistry",
-        "operating_hours": "[[\"Thursday\", \"9AM–8PM\"], [\"Friday\", \"9AM–8PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"9AM–8PM\"], [\"Tuesday\", \"9AM–8PM\"], [\"Wednesday\", \"9AM–8PM\"]]",
-        "average_rating": 5.0
-      },
-      {
-        "name": "Paradise tattoo",
-        "operating_hours": "[[\"Thursday\", \"12–10PM\"], [\"Friday\", \"12PM–12AM\"], [\"Saturday\", \"12PM–12AM\"], [\"Sunday\", \"12–10PM\"], [\"Monday\", \"12–10PM\"], [\"Tuesday\", \"12–10PM\"], [\"Wednesday\", \"12–10PM\"]]",
-        "average_rating": 4.96
-      }
-    ]
+    "answer": "[{\"name\": \"TACOS LA CABANA\", \"operating_hours\": \"[[\\\"Thursday\\\", \\\"Closed\\\"], [\\\"Friday\\\", \\\"5–11PM\\\"], [\\\"Saturday\\\", \\\"5–11PM\\\"], [\\\"Sunday\\\", \\\"5–11PM\\\"], [\\\"Monday\\\", \\\"5–11PM\\\"], [\\\"Tuesday\\\", \\\"Closed\\\"], [\\\"Wednesday\\\", \\\"Closed\\\"]]\", \"average_rating\": 5.0}, {\"name\": \"Taba Rug Gallery\", \"operating_hours\": \"[[\\\"Thursday\\\", \\\"10AM–7PM\\\"], [\\\"Friday\\\", \\\"10AM–7PM\\\"], [\\\"Saturday\\\", \\\"10AM–7PM\\\"], [\\\"Sunday\\\", \\\"11AM–6PM\\\"], [\\\"Monday\\\", \\\"10AM–7PM\\\"], [\\\"Tuesday\\\", \\\"10AM–7PM\\\"], [\\\"Wednesday\\\", \\\"10AM–7PM\\\"]]\", \"average_rating\": 5.0}, {\"name\": \"White Barn Candle Co\", \"operating_hours\": \"[[\\\"Thursday\\\", \\\"10AM–9PM\\\"], [\\\"Friday\\\", \\\"10AM–9PM\\\"], [\\\"Saturday\\\", \\\"10AM–9PM\\\"], [\\\"Sunday\\\", \\\"11AM–7PM\\\"], [\\\"Monday\\\", \\\"10AM–9PM\\\"], [\\\"Tuesday\\\", \\\"10AM–9PM\\\"], [\\\"Wednesday\\\", \\\"10AM–9PM\\\"]]\", \"average_rating\": 5.0}, {\"name\": \"Beauty Divine Artistry\", \"operating_hours\": \"[[\\\"Thursday\\\", \\\"9AM–8PM\\\"], [\\\"Friday\\\", \\\"9AM–8PM\\\"], [\\\"Saturday\\\", \\\"10AM–7PM\\\"], [\\\"Sunday\\\", \\\"11AM–6PM\\\"], [\\\"Monday\\\", \\\"9AM–8PM\\\"], [\\\"Tuesday\\\", \\\"9AM–8PM\\\"], [\\\"Wednesday\\\", \\\"9AM–8PM\\\"]]\", \"average_rating\": 5.0}, {\"name\": \"Paradise tattoo\", \"operating_hours\": \"[[\\\"Thursday\\\", \\\"12–10PM\\\"], [\\\"Friday\\\", \\\"12PM–12AM\\\"], [\\\"Saturday\\\", \\\"12PM–12AM\\\"], [\\\"Sunday\\\", \\\"12–10PM\\\"], [\\\"Monday\\\", \\\"12–10PM\\\"], [\\\"Tuesday\\\", \\\"12–10PM\\\"], [\\\"Wednesday\\\", \\\"12–10PM\\\"]]\", \"average_rating\": 4.96}]"
   },
   {
     "dataset": "googlelocal",
@@ -1063,178 +1035,7 @@
     "dataset": "googlelocal",
     "query": "3",
     "run": "4",
-    "answer": [
-      {
-        "name": "Taba Rug Gallery",
-        "operating_hours": [
-          [
-            "Thursday",
-            "10AM–7PM"
-          ],
-          [
-            "Friday",
-            "10AM–7PM"
-          ],
-          [
-            "Saturday",
-            "10AM–7PM"
-          ],
-          [
-            "Sunday",
-            "11AM–6PM"
-          ],
-          [
-            "Monday",
-            "10AM–7PM"
-          ],
-          [
-            "Tuesday",
-            "10AM–7PM"
-          ],
-          [
-            "Wednesday",
-            "10AM–7PM"
-          ]
-        ],
-        "average_rating": 5.0
-      },
-      {
-        "name": "Beauty Divine Artistry",
-        "operating_hours": [
-          [
-            "Thursday",
-            "9AM–8PM"
-          ],
-          [
-            "Friday",
-            "9AM–8PM"
-          ],
-          [
-            "Saturday",
-            "10AM–7PM"
-          ],
-          [
-            "Sunday",
-            "11AM–6PM"
-          ],
-          [
-            "Monday",
-            "9AM–8PM"
-          ],
-          [
-            "Tuesday",
-            "9AM–8PM"
-          ],
-          [
-            "Wednesday",
-            "9AM–8PM"
-          ]
-        ],
-        "average_rating": 5.0
-      },
-      {
-        "name": "White Barn Candle Co",
-        "operating_hours": [
-          [
-            "Thursday",
-            "10AM–9PM"
-          ],
-          [
-            "Friday",
-            "10AM–9PM"
-          ],
-          [
-            "Saturday",
-            "10AM–9PM"
-          ],
-          [
-            "Sunday",
-            "11AM–7PM"
-          ],
-          [
-            "Monday",
-            "10AM–9PM"
-          ],
-          [
-            "Tuesday",
-            "10AM–9PM"
-          ],
-          [
-            "Wednesday",
-            "10AM–9PM"
-          ]
-        ],
-        "average_rating": 5.0
-      },
-      {
-        "name": "TACOS LA CABANA",
-        "operating_hours": [
-          [
-            "Thursday",
-            "Closed"
-          ],
-          [
-            "Friday",
-            "5–11PM"
-          ],
-          [
-            "Saturday",
-            "5–11PM"
-          ],
-          [
-            "Sunday",
-            "5–11PM"
-          ],
-          [
-            "Monday",
-            "5–11PM"
-          ],
-          [
-            "Tuesday",
-            "Closed"
-          ],
-          [
-            "Wednesday",
-            "Closed"
-          ]
-        ],
-        "average_rating": 5.0
-      },
-      {
-        "name": "Mariscos el poblano",
-        "operating_hours": [
-          [
-            "Thursday",
-            "Open 24 hours"
-          ],
-          [
-            "Friday",
-            "8AM–3:30PM"
-          ],
-          [
-            "Saturday",
-            "8AM–3:30PM"
-          ],
-          [
-            "Sunday",
-            "8AM–3:30PM"
-          ],
-          [
-            "Monday",
-            "9AM–3:30AM"
-          ],
-          [
-            "Tuesday",
-            "8AM–3:30PM"
-          ],
-          [
-            "Wednesday",
-            "8AM–3:30PM"
-          ]
-        ],
-        "average_rating": 5.0
-      }
-    ]
+    "answer": "[{\"name\": \"Taba Rug Gallery\", \"operating_hours\": [[\"Thursday\", \"10AM–7PM\"], [\"Friday\", \"10AM–7PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"10AM–7PM\"], [\"Tuesday\", \"10AM–7PM\"], [\"Wednesday\", \"10AM–7PM\"]], \"average_rating\": 5.0}, {\"name\": \"Beauty Divine Artistry\", \"operating_hours\": [[\"Thursday\", \"9AM–8PM\"], [\"Friday\", \"9AM–8PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"9AM–8PM\"], [\"Tuesday\", \"9AM–8PM\"], [\"Wednesday\", \"9AM–8PM\"]], \"average_rating\": 5.0}, {\"name\": \"White Barn Candle Co\", \"operating_hours\": [[\"Thursday\", \"10AM–9PM\"], [\"Friday\", \"10AM–9PM\"], [\"Saturday\", \"10AM–9PM\"], [\"Sunday\", \"11AM–7PM\"], [\"Monday\", \"10AM–9PM\"], [\"Tuesday\", \"10AM–9PM\"], [\"Wednesday\", \"10AM–9PM\"]], \"average_rating\": 5.0}, {\"name\": \"TACOS LA CABANA\", \"operating_hours\": [[\"Thursday\", \"Closed\"], [\"Friday\", \"5–11PM\"], [\"Saturday\", \"5–11PM\"], [\"Sunday\", \"5–11PM\"], [\"Monday\", \"5–11PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]], \"average_rating\": 5.0}, {\"name\": \"Mariscos el poblano\", \"operating_hours\": [[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM–3:30PM\"], [\"Saturday\", \"8AM–3:30PM\"], [\"Sunday\", \"8AM–3:30PM\"], [\"Monday\", \"9AM–3:30AM\"], [\"Tuesday\", \"8AM–3:30PM\"], [\"Wednesday\", \"8AM–3:30PM\"]], \"average_rating\": 5.0}]"
   },
   {
     "dataset": "googlelocal",
@@ -1678,7 +1479,7 @@
     "dataset": "GITHUB_REPOS",
     "query": "1",
     "run": "3",
-    "answer": 0.14
+    "answer": "0.14"
   },
   {
     "dataset": "GITHUB_REPOS",
