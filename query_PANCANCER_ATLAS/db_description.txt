@@ -10,7 +10,7 @@ Here are the descriptions of these two databases:
     - Fields: over one hundred attributes describing each patient (not listed here individually).  
 
 2. molecular_database
-   - This database is stored in SQLite database format and contains molecular profiling data of patients in the PanCancer Atlas.  
+   - This database is stored in DuckDB database format and contains molecular profiling data of patients in the PanCancer Atlas.  
    - This database consists of two tables:
      - Mutation_Data:
        - Fields:  
