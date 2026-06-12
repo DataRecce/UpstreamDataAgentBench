@@ -1,92 +1,89 @@
 {
   "updatedAt": "2026-06-12",
   "sources": [
-    "README leaderboard table",
-    "Rows marked recomputed: re-scored 2026-06-12 from the submission JSONs in this repository with stats_scripts/score_submission.py against the current validators (including the regenerated PATENTS ground truths); remaining rows keep their originally reported scores",
+    "All Pass@1 scores recomputed 2026-06-12 with stats_scripts/score_submission.py against the current validators (including the regenerated PATENTS ground truths), from the submission JSONs in this repository or in the corresponding submission PR branches",
     "PromptQL and baseline stratified tables: re-scored 2026-06-12 from the stored submission JSONs"
   ],
   "overallLeaderboard": [
     {
       "rank": 1,
-      "agent": "Spacedock (Recce) + Claude Opus 4.8",
-      "trials": 5,
-      "passAt1": 0.6555,
-      "team": "Spacedock (Recce)",
-      "teamUrl": "https://github.com/ucbepic/DataAgentBench/pull/55",
-      "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/55",
-      "date": "2026-06-08"
-    },
-    {
-      "rank": 2,
       "agent": "Altimate Code + GPT-5.5 + Claude Sonnet 4.6",
       "trials": 5,
-      "passAt1": 0.6318,
+      "passAt1": 0.7171,
       "team": "Altimate Code",
       "teamUrl": "https://github.com/ucbepic/DataAgentBench/pull/53",
       "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/53",
       "date": "2026-06-01"
     },
     {
-      "rank": 3,
-      "agent": "MinusX + Claude Sonnet 4.6 + GPT-5.5-mini + Claude Haiku 4.5",
-      "trials": 5,
-      "passAt1": 0.631,
-      "team": "MinusX",
-      "teamUrl": "https://github.com/ucbepic/DataAgentBench/pull/50",
-      "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/50",
-      "date": "2026-05-21"
-    },
-    {
-      "rank": 4,
+      "rank": 2,
       "agent": "Altimate Code + Claude Sonnet 4.6",
       "trials": 5,
-      "passAt1": 0.604,
+      "passAt1": 0.6822,
       "team": "Altimate Code",
       "teamUrl": "https://github.com/ucbepic/DataAgentBench/pull/44",
       "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/44",
       "date": "2026-05-10"
     },
     {
+      "rank": 3,
+      "agent": "Spacedock (Recce) + Claude Opus 4.8",
+      "trials": 5,
+      "passAt1": 0.6721,
+      "team": "Spacedock (Recce)",
+      "teamUrl": "https://github.com/ucbepic/DataAgentBench/pull/55",
+      "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/55",
+      "date": "2026-06-08"
+    },
+    {
+      "rank": 4,
+      "agent": "MinusX + Claude Sonnet 4.6 + GPT-5.5-mini + Claude Haiku 4.5",
+      "trials": 5,
+      "passAt1": 0.6518,
+      "team": "MinusX",
+      "teamUrl": "https://github.com/ucbepic/DataAgentBench/pull/50",
+      "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/50",
+      "date": "2026-05-21"
+    },
+    {
       "rank": 5,
+      "agent": "Pi Coding Agent + Claude Opus 4.6",
+      "trials": 5,
+      "passAt1": 0.6103,
+      "team": "Pi Coding Agent",
+      "teamUrl": "https://github.com/ucbepic/DataAgentBench/pull/31",
+      "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/31",
+      "date": "2026-04-21"
+    },
+    {
+      "rank": 6,
       "agent": "PromptQL + Gemini 3.1 Pro",
       "trials": 5,
       "passAt1": 0.6,
       "team": "Hasura PromptQL",
       "teamUrl": "https://promptql.io/",
       "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/24",
-      "date": "2026-03-18",
-      "recomputed": true
+      "date": "2026-03-18"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "agent": "PromptQL + Claude Opus 4.6",
       "trials": 5,
       "passAt1": 0.5933,
       "team": "Hasura PromptQL",
       "teamUrl": "https://promptql.io/",
       "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/23",
-      "date": "2026-03-02",
-      "recomputed": true
+      "date": "2026-03-02"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "agent": "Spacedock (Recce) + Claude Opus 4.6",
       "trials": 5,
-      "passAt1": 0.5773,
+      "passAt1": 0.5828,
       "team": "Spacedock (Recce)",
       "teamUrl": "https://github.com/ucbepic/DataAgentBench/pull/47",
       "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/47",
       "date": "2026-05-08"
-    },
-    {
-      "rank": 8,
-      "agent": "Pi Coding Agent + Claude Opus 4.6",
-      "trials": 5,
-      "passAt1": 0.5603,
-      "team": "Pi Coding Agent",
-      "teamUrl": "https://github.com/ucbepic/DataAgentBench/pull/31",
-      "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/31",
-      "date": "2026-04-21"
     },
     {
       "rank": 9,
@@ -96,14 +93,13 @@
       "team": "EPIC Data Lab",
       "teamUrl": "https://epic.berkeley.edu/",
       "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/22",
-      "date": "2026-03-18",
-      "recomputed": true
+      "date": "2026-03-18"
     },
     {
       "rank": 10,
       "agent": "Oracle Forge (Team PaLM) + Gemini 3.1 Pro Preview",
       "trials": 5,
-      "passAt1": 0.4601,
+      "passAt1": 0.4721,
       "team": "Team PaLM",
       "teamUrl": "https://github.com/ucbepic/DataAgentBench/pull/37",
       "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/37",
@@ -111,23 +107,22 @@
     },
     {
       "rank": 11,
-      "agent": "Oracle Forge (Tenacious Intelligence) + Claude Sonnet 4.6",
-      "trials": 5,
-      "passAt1": 0.4554,
-      "team": "Tenacious Intelligence Corp",
-      "teamUrl": "https://github.com/ucbepic/DataAgentBench/pull/32",
-      "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/32",
-      "date": "2026-04-21"
-    },
-    {
-      "rank": 12,
       "agent": "Gemini-3-Pro ReAct",
       "trials": 50,
       "passAt1": 0.4546,
       "team": "EPIC Data Lab",
       "teamUrl": "https://epic.berkeley.edu/",
-      "date": "2026-03-02",
-      "recomputed": true
+      "date": "2026-03-02"
+    },
+    {
+      "rank": 12,
+      "agent": "Oracle Forge (Tenacious Intelligence) + Claude Sonnet 4.6",
+      "trials": 5,
+      "passAt1": 0.4464,
+      "team": "Tenacious Intelligence Corp",
+      "teamUrl": "https://github.com/ucbepic/DataAgentBench/pull/32",
+      "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/32",
+      "date": "2026-04-21"
     },
     {
       "rank": 13,
@@ -136,8 +131,7 @@
       "passAt1": 0.3647,
       "team": "EPIC Data Lab",
       "teamUrl": "https://epic.berkeley.edu/",
-      "date": "2026-03-02",
-      "recomputed": true
+      "date": "2026-03-02"
     },
     {
       "rank": 14,
@@ -146,8 +140,7 @@
       "passAt1": 0.2991,
       "team": "EPIC Data Lab",
       "teamUrl": "https://epic.berkeley.edu/",
-      "date": "2026-03-02",
-      "recomputed": true
+      "date": "2026-03-02"
     },
     {
       "rank": 15,
@@ -156,14 +149,13 @@
       "passAt1": 0.2925,
       "team": "EPIC Data Lab",
       "teamUrl": "https://epic.berkeley.edu/",
-      "date": "2026-03-02",
-      "recomputed": true
+      "date": "2026-03-02"
     },
     {
       "rank": 16,
       "agent": "Oracle Forge (Team Cohere) + Gemini 2.0 Flash",
       "trials": 5,
-      "passAt1": 0.128,
+      "passAt1": 0.1671,
       "team": "Team Cohere",
       "teamUrl": "https://github.com/ucbepic/DataAgentBench/pull/38",
       "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/38",
@@ -176,8 +168,7 @@
       "passAt1": 0.1041,
       "team": "EPIC Data Lab",
       "teamUrl": "https://epic.berkeley.edu/",
-      "date": "2026-03-02",
-      "recomputed": true
+      "date": "2026-03-02"
     }
   ],
   "promptqlStratified": {

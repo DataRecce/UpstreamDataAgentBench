@@ -170,9 +170,16 @@ def run_validations(tasks, repo_root: Path, workers: int, accel: bool,
 
 
 def aggregate(results, queries, runs_per_query):
-    """Compute Pass@1 per query/dataset and both overall aggregations."""
+    """Compute Pass@1 per query/dataset and both overall aggregations.
+
+    runs_per_query = 0 means "auto": each query's denominator is the number of
+    distinct runs present for it (queries with no runs score 0). Use this for
+    submissions with a variable number of trials per query.
+    """
     pass_counts = defaultdict(int)
+    run_counts = defaultdict(int)
     for (folder, qid, _run), passed in results.items():
+        run_counts[(folder, qid)] += 1
         if passed:
             pass_counts[(folder, qid)] += 1
 
@@ -182,7 +189,8 @@ def aggregate(results, queries, runs_per_query):
         ds = FOLDER_CANONICAL.get(folder, folder[len("query_"):])
         vals = []
         for qid in qids:
-            p = pass_counts.get((folder, qid), 0) / runs_per_query
+            denom = runs_per_query or run_counts.get((folder, qid), 0)
+            p = pass_counts.get((folder, qid), 0) / denom if denom else 0.0
             per_query[(folder, qid)] = p
             vals.append(p)
         per_dataset[ds] = sum(vals) / len(vals)
