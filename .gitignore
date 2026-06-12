@@ -32,8 +32,6 @@ failure_analysis/*
 !failure_analysis/llm_judge.py
 !failure_analysis/no_tool_calls.py
 !failure_analysis/parse_llm_judge.py
-!failure_analysis/patents_query3
-!failure_analysis/patents_query3/**
 
 # common_scaffold/
 common_scaffold/prompts/*.txt
