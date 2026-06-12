@@ -170,7 +170,8 @@ function renderOverallLeaderboard(rows) {
     teamLink.rel = "noopener noreferrer";
     teamTd.appendChild(teamLink);
     const trialsTd = createElement("td", "num", String(row.trials));
-    const passTd = createElement("td", "num", formatPercentFromScore(row.passAt1));
+    const passLabel = formatPercentFromScore(row.passAt1) + (row.recomputed ? "*" : "");
+    const passTd = createElement("td", "num", passLabel);
     const dateTd = createElement("td", "", row.date);
     const prTd = document.createElement("td");
     if (row.prUrl) {
