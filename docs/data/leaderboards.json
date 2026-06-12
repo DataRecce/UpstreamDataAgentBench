@@ -1,7 +1,7 @@
 {
   "updatedAt": "2026-06-12",
   "sources": [
-    "All Pass@1 scores recomputed 2026-06-12 with stats_scripts/score_submission.py against the current validators (including the regenerated PATENTS ground truths), from the submission JSONs in this repository or in the corresponding submission PR branches",
+    "All Pass@1 scores recomputed 2026-06-12 by re-running each query's validate.py under the current validators (including the regenerated PATENTS ground truths), from the submission JSONs in this repository or in the corresponding submission PR branches",
     "PromptQL and baseline stratified tables: re-scored 2026-06-12 from the stored submission JSONs"
   ],
   "overallLeaderboard": [
