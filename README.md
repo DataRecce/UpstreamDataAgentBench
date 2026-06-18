@@ -38,16 +38,17 @@ Unlike prior SQL-only or single-database benchmarks, DAB stresses agents under *
 | 7    | PromptQL (Claude-Opus-4.6) | 0.5933 | 5 | Yes | 2026-03-02 | [#23](https://github.com/ucbepic/DataAgentBench/pull/23) |
 | 8    | Spacedock (Recce) (Claude-Opus-4.6) | 0.5828 | 5 | No | 2026-05-08 | [#47](https://github.com/ucbepic/DataAgentBench/pull/47) |
 | 9    | Claude-Opus-4.6 | 0.5468 | 5 | Yes | 2026-03-18 | [#22](https://github.com/ucbepic/DataAgentBench/pull/22) |
-| 10   | Oracle Forge — Team PaLM (Gemini-3.1-Pro-Preview) | 0.4721 | 5 | Yes | 2026-05-10 | [#37](https://github.com/ucbepic/DataAgentBench/pull/37) |
-| 11   | Gemini-3-Pro | 0.4546 | 50 | Yes | 2026-03-02 | — |
-| 12   | Oracle Forge — Tenacious Intelligence (Claude-Sonnet-4.6) | 0.4464 | 5–7 | No | 2026-04-21 | [#32](https://github.com/ucbepic/DataAgentBench/pull/32) |
-| 13   | GPT-5-mini | 0.3647 | 50 | Yes | 2026-03-02 | — |
-| 14   | GPT-5.2 | 0.2991 | 50 | Yes | 2026-03-02 | — |
-| 15   | Kimi-K2 | 0.2925 | 50 | Yes | 2026-03-02 | — |
-| 16   | Oracle Forge — Team Cohere (Gemini-2.0-Flash) | 0.1671 | 5 | Yes | 2026-04-21 | [#38](https://github.com/ucbepic/DataAgentBench/pull/38) |
-| 17   | Gemini-2.5-Flash | 0.1041 | 50 | Yes | 2026-03-02 | — |
+| 10   | LabRat (Claude-Sonnet-4.6) | 0.5138 | 5 | No | 2026-06-01 | [#54](https://github.com/ucbepic/DataAgentBench/pull/54) |
+| 11   | Oracle Forge — Team PaLM (Gemini-3.1-Pro-Preview) | 0.4721 | 5 | Yes | 2026-05-10 | [#37](https://github.com/ucbepic/DataAgentBench/pull/37) |
+| 12   | Gemini-3-Pro | 0.4546 | 50 | Yes | 2026-03-02 | — |
+| 13   | Oracle Forge — Tenacious Intelligence (Claude-Sonnet-4.6) | 0.4464 | 5–7 | No | 2026-04-21 | [#32](https://github.com/ucbepic/DataAgentBench/pull/32) |
+| 14   | GPT-5-mini | 0.3647 | 50 | Yes | 2026-03-02 | — |
+| 15   | GPT-5.2 | 0.2991 | 50 | Yes | 2026-03-02 | — |
+| 16   | Kimi-K2 | 0.2925 | 50 | Yes | 2026-03-02 | — |
+| 17   | Oracle Forge — Team Cohere (Gemini-2.0-Flash) | 0.1671 | 5 | Yes | 2026-04-21 | [#38](https://github.com/ucbepic/DataAgentBench/pull/38) |
+| 18   | Gemini-2.5-Flash | 0.1041 | 50 | Yes | 2026-03-02 | — |
 
-All Pass@1 scores recomputed on 2026-06-12 by re-running each query's `validate.py` against the current validators (including the regenerated PATENTS ground truths), from the submission JSONs stored in this repository (`submissions/`, `leaderboard_submissions/`) or in the corresponding submission PR branches (`refs/pull/<N>/head`). Pass@1 is the mean over datasets of each dataset's average per-query pass rate. Notes: the Team PaLM submission ([#37](https://github.com/ucbepic/DataAgentBench/pull/37)) covers 49 of 54 queries (missing queries scored 0); the Tenacious Intelligence submission ([#32](https://github.com/ucbepic/DataAgentBench/pull/32)) has 5–7 trials per query (per-query denominators used).
+All Pass@1 scores recomputed on 2026-06-12 by re-running each query's `validate.py` against the current validators (including the regenerated PATENTS ground truths), from the submission JSONs stored in this repository (`submissions/`, `leaderboard_submissions/`) or in the corresponding submission PR branches (`refs/pull/<N>/head`). Pass@1 is the mean over datasets of each dataset's average per-query pass rate. Notes: the Team PaLM submission ([#37](https://github.com/ucbepic/DataAgentBench/pull/37)) covers 49 of 54 queries (missing queries scored 0); the Tenacious Intelligence submission ([#32](https://github.com/ucbepic/DataAgentBench/pull/32)) has 5–7 trials per query (per-query denominators used); the LabRat submission ([#54](https://github.com/ucbepic/DataAgentBench/pull/54)) had 21 contaminated trials counted as non-passes.
 
 
 ### How to Submit to the Leaderboard

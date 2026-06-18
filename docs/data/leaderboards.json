@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12",
+  "updatedAt": "2026-06-18",
   "sources": [
     "All Pass@1 scores recomputed 2026-06-12 by re-running each query's validate.py under the current validators (including the regenerated PATENTS ground truths), from the submission JSONs in this repository or in the corresponding submission PR branches",
     "PromptQL and baseline stratified tables: re-scored 2026-06-12 from the stored submission JSONs"
@@ -97,6 +97,16 @@
     },
     {
       "rank": 10,
+      "agent": "LabRat (Claude Sonnet 4.6)",
+      "trials": 5,
+      "passAt1": 0.5138,
+      "team": "LabRat",
+      "teamUrl": "https://github.com/esagduyu/labrat",
+      "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/54",
+      "date": "2026-06-01"
+    },
+    {
+      "rank": 11,
       "agent": "Oracle Forge (Team PaLM) + Gemini 3.1 Pro Preview",
       "trials": 5,
       "passAt1": 0.4721,
@@ -106,7 +116,7 @@
       "date": "2026-04-19"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "agent": "Gemini-3-Pro ReAct",
       "trials": 50,
       "passAt1": 0.4546,
@@ -115,7 +125,7 @@
       "date": "2026-03-02"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "agent": "Oracle Forge (Tenacious Intelligence) + Claude Sonnet 4.6",
       "trials": 5,
       "passAt1": 0.4464,
@@ -125,7 +135,7 @@
       "date": "2026-04-21"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "agent": "GPT-5-mini ReAct",
       "trials": 50,
       "passAt1": 0.3647,
@@ -134,7 +144,7 @@
       "date": "2026-03-02"
     },
     {
-      "rank": 14,
+      "rank": 15,
       "agent": "GPT-5.2 ReAct",
       "trials": 50,
       "passAt1": 0.2991,
@@ -143,7 +153,7 @@
       "date": "2026-03-02"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "agent": "Kimi-K2 ReAct",
       "trials": 50,
       "passAt1": 0.2925,
@@ -152,7 +162,7 @@
       "date": "2026-03-02"
     },
     {
-      "rank": 16,
+      "rank": 17,
       "agent": "Oracle Forge (Team Cohere) + Gemini 2.0 Flash",
       "trials": 5,
       "passAt1": 0.1671,
@@ -162,7 +172,7 @@
       "date": "2026-04-21"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "agent": "Gemini-2.5-Flash ReAct",
       "trials": 50,
       "passAt1": 0.1041,
